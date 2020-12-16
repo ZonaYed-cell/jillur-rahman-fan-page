@@ -1,0 +1,550 @@
+/* universel */
+img{
+    max-width: 100%;
+}
+/* universel */
+
+/* backgraunds */
+.main-website {
+	background: url(./img/wp1913251-jarvis-wallpapers.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 1400px;
+	padding: 395px 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -20;
+}
+.middle-rotetor {
+	position: absolute;
+	top: 153px;
+	left: 434px;
+	width: 543px;
+	animation: mddl-rt-1 3s linear infinite;
+}
+.middl-r-2 {
+	position: absolute;
+	top: 125px;
+	left: 430px;
+	width: 543px;
+	animation: mddl-rt-2 6s linear infinite;
+	pointer-events: none;
+}
+.jillur-vai {
+	position: absolute;
+	top: 297px;
+	left: 217px;
+	width: 200px;
+	border-radius: 50%;
+	animation: jillur 3s alternate infinite;
+	position: relative;
+}
+
+.jillur-title {
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 53px;
+	position: absolute;
+	top: 249px;
+	left: 590px;
+	animation: j-title 5s alternate infinite;
+	pointer-events: none;
+}
+.lfwf-academy {
+    width: 94px;
+    position: absolute;
+    right: 158px;
+    top: 98px;
+}
+.lfwf-core {
+    width: 211px;
+    position: absolute;
+    right: 103px;
+    top: 21px;
+    z-index: -1;
+    opacity: .5;
+    animation: jillur 3s alternate infinite;
+}
+.lfwf-rotator {
+    width: 195px;
+    position: absolute;
+    right: 110px;
+    top: 30px;
+    z-index: -1;
+    opacity: .5;
+    animation: mddl-rt-1 linear 5s infinite;
+}
+
+.animation-bg {
+	position: absolute;
+	left: -209px;
+	top: 277px;
+	width: 808px;
+	display: block;
+	z-index: -5;
+}
+.animation-1 {
+	width: 153px;
+	position: relative;
+	top: 186px;
+	left: 119px;
+	animation: mddl-rt-1 linear 20s infinite;
+}
+.animation-2 {
+	width: 127px;
+	position: absolute;
+	top: 440px;
+	left: 132px;
+	animation: mddl-rt-2 20s linear infinite;
+}
+.animation-b {
+	position: relative;
+	top: 185px;
+	left: -11px;
+	width: 100px;
+	animation: mddl-rt-1 linear 15s infinite;
+}
+
+.j-f-1 {
+	width: 87px;
+	position: absolute;
+	top: 52px;
+    left: 424px;
+    animation: j-f 1s alternate infinite;
+}
+.j-f-2 {
+	width: 87px;
+	position: absolute;
+	top: 47px;
+    right: 304px;
+    animation: j-f 1s alternate infinite;
+}
+
+@keyframes j-f {
+    0%{
+        filter: none;
+    }
+    100%{
+        filter: brightness(300%);
+    }
+}
+/* backgraunds */
+
+/* text */
+.chack {
+	color: white;
+	padding: ;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	position: absolute;
+	left: 600px;
+	top: 297px;
+}
+.deatels-about-jillur{
+    visibility: hidden;
+    opacity: 0;
+    transform: scaleY(0%);
+    transform-origin: top;
+    transition: .4s;
+}
+.chack{
+    opacity: 0;
+    cursor: pointer;
+}
+.chack:checked ~ .deatels-about-jillur{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(100%);
+}
+
+.deatels-about-jillur {
+	width: 255px;
+	position: absolute;
+	top: 31px;
+}
+.deatels-about-jillur h1 {
+	color: white !important;
+	color: transparent;
+	font-size: 24px;
+	/* margin-bottom: ; */
+}
+.deatels-about-jillur p {
+	color: white;
+	font-size: 13px;
+	line-height: 25px;
+}
+
+.Jillur-f-c {
+	font-family: 'Permanent Marker', cursive;
+	color: springgreen;
+	letter-spacing: -2px;
+	position: absolute;
+	top: 67px;
+	left: 502px;
+    text-shadow: 0pc 0pc 14px white;
+    animation: f-c 1s linear infinite;
+}
+@keyframes f-c {
+    0%{
+        color: #fff;
+        text-shadow: 0pc 0pc 14px rgb(155, 0, 129);
+    }
+    50%{
+        color: greenyellow;
+        text-shadow: 0pc 0pc 14px rgb(155, 0, 0);
+    }
+    100%{
+        color: red;
+        text-shadow: 0pc 0pc 14px rgb(161, 158, 0);
+    }
+}
+
+
+.y-zillur-icon {
+	color: red;
+	font-size: 54px;
+	position: absolute;
+	top: 79px;
+	left: 315px;
+}
+.D-zillur-title {
+    color: red;
+    font-size: 22px;
+    position: absolute;
+    top: 163px;
+    left: 275px;
+    text-shadow: 1px 1px 0px yellow;
+}
+.zillur-y-r {
+	position: absolute;
+	top: 79px;
+	left: 315px;
+}
+.zillur-y-r {
+    position: absolute;
+    top: 22px;
+    left: 245px;
+    width: 200px;
+    animation: mddl-rt-2 6s linear infinite;
+}
+.zillur-y-cd {
+    position: absolute;
+    top: 68px;
+    left: 290px;
+    width: 111px;
+    animation: mddl-rt-1 15s linear infinite;
+}
+
+.bismillah {
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    left: 544px;
+    top: -69px;
+    padding-bottom: 6px;
+    animation: bsmllah 15s ease-in-out infinite;
+}
+
+@-moz-keyframes bsmllah {
+    0%{
+        color: white;
+    }
+    25%{
+        color: rgb(0, 89, 255);
+    }
+    50%{
+        color: rgb(255, 0, 0);
+    }
+    100%{
+        color: rgb(183, 0, 255);
+    }
+}
+@-ms-keyframes bsmllah {
+    0%{
+        color: white;
+    }
+    25%{
+        color: rgb(0, 89, 255);
+    }
+    50%{
+        color: rgb(255, 0, 0);
+    }
+    100%{
+        color: rgb(183, 0, 255);
+    }
+}
+@-webkit-keyframes bsmllah {
+    0%{
+        color: white;
+    }
+    25%{
+        color: rgb(0, 89, 255);
+    }
+    50%{
+        color: rgb(255, 0, 0);
+    }
+    100%{
+        color: rgb(183, 0, 255);
+    }
+}
+.bismillah::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 24%;
+    bottom: 0;
+    left: 0;
+    color: red;
+    z-index: 5;
+    background: yellow;
+    border-radius: 15px;
+    animation: bs 2s alternate-reverse infinite;
+}
+.bismillah::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 24%;
+    bottom: 0;
+    left: 0;
+    color: red;
+    z-index: 5;
+    background: yellow;
+    border-radius: 15px;
+    animation: bs2 2s alternate infinite;
+}
+.z-f-g {
+	color: rgb(0, 110, 255);
+	font-size: 51px;
+	position: relative;
+	right: -466px;
+    top: 278px;
+    animation: f-icon 1.5s alternate infinite;
+    transition: .4s;
+}
+.z-f-t {
+	color: white;
+	position: relative;
+	left: 1061px;
+    top: 191px;
+    text-decoration: none;
+    transition: .4s;
+}
+/* text */
+
+/* animation-section */
+@-moz-keyframes f-icon{
+    0%{
+        right: -450px;
+    }
+    100%{
+        right: -635px;
+        color: yellow;
+    }
+}
+/* jillur title */
+
+@-moz-keyframes bs {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(100px);
+        background-color: white;
+    }
+}
+@-ms-keyframes bs {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(100px);
+        background-color: white;
+    }
+}
+@-webkit-keyframes bs {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(100px);
+        background-color: white;
+    }
+}
+@-moz-keyframes bs2 {
+    0%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(200px);
+        background-color: red;
+    }
+}
+@-ms-keyframes bs2 {
+    0%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(200px);
+        background-color: red;
+    }
+}
+@-webkit-keyframes bs2 {
+    0%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(200px);
+        background-color: red;
+    }
+}
+
+@-webkit-keyframes j-title {
+    0% {
+        transform: translateY(0px);
+        color: green;
+        text-shadow: 0px 0px 5px rgba(241, 2, 2, 0.7);
+    }
+    50%{
+        color: yellow;
+        text-shadow: 0px 0px 5px rgba(25, 0, 255, 0.7);
+    }
+    100% {
+        transform: translateY(180px);
+        color: red;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, .7);
+    }
+}
+@-moz-keyframes j-title {
+    0% {
+        transform: translateY(0px);
+        color: green;
+        text-shadow: 0px 0px 5px rgba(241, 2, 2, 0.7);
+    }
+    50%{
+        color: yellow;
+        text-shadow: 0px 0px 5px rgba(25, 0, 255, 0.7);
+    }
+    100% {
+        transform: translateY(180px);
+        color: red;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, .7);
+    }
+}
+@-ms-keyframes j-title {
+    0% {
+        transform: translateY(0px);
+        color: green;
+        text-shadow: 0px 0px 5px rgba(241, 2, 2, 0.7);
+    }
+    50%{
+        color: yellow;
+        text-shadow: 0px 0px 5px rgba(25, 0, 255, 0.7);
+    }
+    100% {
+        transform: translateY(180px);
+        color: red;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, .7);
+    }
+/* jillur title */
+/* middl rotator */
+}
+
+@-webkit-keyframes mddl-rt-1 {
+
+    100% {
+        transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes mddl-rt-1 {
+
+    100% {
+        transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+    }
+}
+@-ms-keyframes mddl-rt-1 {
+    100% {
+        transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+    }
+}
+
+
+
+
+@-webkit-keyframes mddl-rt-2 {
+    100% {
+        transform: rotate(-360deg);
+        -webkit-transform: rotate(-360deg);
+    }
+}
+@-moz-keyframes mddl-rt-2 {
+    100% {
+        transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+    }
+}
+@-ms-keyframes mddl-rt-2 {
+    100% {
+        transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+    }
+}
+/* middl rotator */
+/* jillur vaiya */
+@-webkit-keyframes jillur {
+    0% {
+        opacity:.3 ;
+    }
+    100% {
+        opacity:1 ;
+    }
+}
+@-moz-keyframes jillur {
+    0% {
+        opacity:.3 ;
+    }
+    100% {
+        opacity:1 ;
+    }
+}
+@-ms-keyframes jillur {
+    0% {
+        opacity:.3 ;
+    }
+    100% {
+        opacity:1 ;
+    }
+}
+/* jillur vaiya */
+/* animation-section */
+
+
+/* hover section */
+.z-facebook i{
+    transition: .4s;
+}
+.z-facebook:hover i{
+    color: red;
+}
+
+.lfwf-acdmy img{
+    transition: .4s;
+}
+.lfwf-acdmy:hover img{
+    filter: brightness(500%);
+}
+
+.y-zillur-icon i{
+    transition: .4s;
+}
+.y-zillur-icon:hover i{
+    color: yellow;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, .7);
+}
